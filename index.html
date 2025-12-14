@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>대충쓴준우체</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <h1>대충쓴준우체</h1>
+    <p>v2와 v3 중 선택 후 미리보기 및 다운로드</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <label for="fontSelect">폰트 선택:</label>
+      <select id="fontSelect">
+        <option value="v2">대충쓴준우체 v2</option>
+        <option value="v3">대충쓴준우체 v3</option>
+      </select>
+    </div>
+
+    <div class="preview-container">
+      <textarea id="previewText" placeholder="여기에 미리보기 텍스트 입력"></textarea>
+      <p id="preview" class="preview">여기에 미리보기 텍스트가 표시됩니다.</p>
+    </div>
+
+    <a id="downloadBtn" href="fonts/RF대충쓴준우체v2(1).ttf" download class="download-btn">다운로드</a>
+  </main>
+
+  <footer>
+    <p>제작: 준우</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "대충쓴준우체",
+  "short_name": "대충쓴준우체",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff"
+}
